@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
-# This script will download all oral history interview and collection metadata directly from the oral history website
+# This script will download all oral history interview and collection metadata directly from the oral history website.
+# It will create:
+#   - neighborhoods.json and neighborhoods.csv
+#   - interviews.json and interviews.csv
+#   - individual .json files for each interview which contain more metadata and annotations
 # Usage:
 #   python get_metadata.py -out "/Volumes/Seagate Backup Plus Drive/oral_history/"
 
